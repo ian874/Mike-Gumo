@@ -1,0 +1,12 @@
+<svg width="250" height="100" viewBox="0 0 250 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rectangular Frame -->
+  <rect x="20" y="10" width="210" height="80" rx="5" fill="none" stroke="#3B82F6" stroke-width="4" />
+  <!-- Tech Accent Line -->
+  <path d="M30 50 Q60 40 90 50 T150 50 T210 50" stroke="#3B82F6" stroke-width="2" fill="none" />
+  <!-- MAYO Text -->
+  <text x="100" y="30" font-family="Montserrat, sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#F97316">MAYO</text>
+  <!-- GUMO Text -->
+  <text x="100" y="60" font-family="Montserrat, sans-serif" font-size="36" font-weight="700" text-anchor="middle" fill="#3B82F6">GUMO</text>
+  <!-- '27 Text -->
+  <text x="100" y="90" font-family="Montserrat, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#F97316">'27</text>
+</svg>

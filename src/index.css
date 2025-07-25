@@ -1,0 +1,105 @@
+/* Tailwind base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Preload Montserrat font */
+@font-face {
+  font-family: 'Montserrat';
+  src: url('https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459W1hyw.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wdhyw.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Body styles */
+body {
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: transparent;
+}
+
+/* Section borders */
+section:not(:first-child) {
+  border-top: 1px solid transparent;
+  border-image: linear-gradient(to right, transparent, rgba(59, 130, 246, 0.5), transparent) 1;
+}
+
+/* SVG icon fallback */
+.icon-sun, .icon-moon {
+  display: inline-block;
+  fill: currentColor !important;
+}
+
+/* Prevent logo animation reflow */
+header svg.logo-static {
+  animation: none !important;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in-down {
+  animation: fadeInDown 0.8s ease-out;
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(100%); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.5s ease-out;
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-slide-up {
+  animation: slideUp 0.8s ease-out;
+}
+
+.animate-on-scroll {
+  /* No opacity: 0 to prevent hiding */
+}
+
+.hover-scale {
+  transition: transform 0.3s ease-in-out;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+/* Components */
+@layer components {
+  .button-primary {
+    @apply bg-blue-500 text-white font-sans font-semibold px-6 py-3 rounded-full hover:bg-blue-600 transition;
+  }
+  .accent-blue {
+    @apply bg-blue-500 text-white font-sans font-medium px-4 py-2 rounded-full hover:bg-blue-600 transition;
+  }
+  .goal-thermometer {
+    @apply relative w-64 h-6 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden;
+  }
+}
