@@ -10,12 +10,10 @@ const Support = () => {
   const handlePaystack = async (e) => {
     e.preventDefault();
     setError('');
-
     if (!name || !email || !amount || amount <= 0) {
       setError('Please fill in all fields with valid values.');
       return;
     }
-
     try {
       const paystack = new PaystackPop();
       paystack.newTransaction({
@@ -54,12 +52,11 @@ const Support = () => {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
         style={{
-          backgroundImage: 'url(/background.jpg)',
+          backgroundImage: 'url(/Mike-Gumo/background.jpg)',
           opacity: 0.1,
         }}
       ></div>
       <div className="absolute inset-0 bg-gradient-to-br from-gray-900/50 via-navy-800/40 to-gray-900/50 z-0"></div>
-
       <div className="container mx-auto px-6 text-center relative z-10">
         <h2 className="text-3xl md:text-4xl font-sans font-extrabold text-white mb-6 tracking-tight">
           Support Mayo’s Campaign

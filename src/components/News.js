@@ -10,7 +10,7 @@ const News = () => (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
           <div className="bg-white/90 dark:bg-gray-800/90 p-6 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
             <img
-              src="/news1.jpg"
+              src="/Mike-Gumo/news1.jpg"
               alt="Youth Tech Hub"
               className="w-full h-40 object-cover rounded-t-lg mb-4"
             />
@@ -29,7 +29,7 @@ const News = () => (
           </div>
           <div className="bg-white/90 dark:bg-gray-800/90 p-6 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
             <img
-              src="/news2.jpg"
+              src="/Mike-Gumo/news2.jpg"
               alt="AI Traffic System"
               className="w-full h-40 object-cover rounded-t-lg mb-4"
             />

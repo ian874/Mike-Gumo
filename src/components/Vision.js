@@ -14,7 +14,7 @@ const Vision = () => (
         </p>
         <div className="relative">
           <img
-            src="/smart-nairobi-vision.jpg"
+            src="/Mike-Gumo/smart-nairobi-vision.jpg"
             alt="Smart Nairobi Vision"
             className="mx-auto rounded-lg shadow-lg hover-scale w-full max-w-[800px] border-2 border-orange-500"
           />

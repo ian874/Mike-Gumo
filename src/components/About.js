@@ -3,7 +3,6 @@ import React from 'react';
 const About = () => (
   <section id="about" className="py-20 bg-white dark:bg-gray-800 z-10">
     <div className="container mx-auto px-6 text-center">
-      {/* Heading with Tech Circuit Icon */}
       <h2 className="text-4xl md:text-5xl font-sans font-extrabold text-gray-800 dark:text-white mb-12 tracking-tight flex items-center justify-center group">
         <svg
           className="w-8 h-8 mr-3 text-orange-500 group-hover:text-blue-500 transition-colors duration-300"
@@ -21,7 +20,6 @@ const About = () => (
         </svg>
         Meet Mayo Gumo
       </h2>
-      {/* Bio Card */}
       <div className="max-w-4xl mx-auto bg-white/90 dark:bg-gray-800/90 p-8 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 opacity-100 z-10">
         <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
           Michael “Mayo” Gumo, Nairobi’s CEC for Innovation and Digital Economy, is running for Westlands MP in 2027. A
@@ -63,11 +61,10 @@ const About = () => (
           to pioneering smart city initiatives, he’s transforming Nairobi and ready to take his vision to Parliament.
         </p>
       </div>
-      {/* Image Section */}
       <div className="mt-12 flex justify-center opacity-100 z-10">
         <div className="relative group">
           <img
-            src="/mayoface.jpg"
+            src="/Mike-Gumo/mayoface.jpg"
             alt="Michael Gumo"
             className="rounded-full w-56 h-56 object-cover border-4 border-orange-500 group-hover:border-blue-500 shadow-md transition-colors duration-300"
           />

@@ -6,7 +6,7 @@ const Achievements = () => (
     <div
       className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
       style={{
-        backgroundImage: 'url(/background.jpg)',
+        backgroundImage: 'url(/Mike-Gumo/background.jpg)',
         opacity: 0.1,
       }}
     ></div>
