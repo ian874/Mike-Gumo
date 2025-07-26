@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Mike-Gumo/static/css/main.27ad39f0.css",
+    "main.js": "/Mike-Gumo/static/js/main.8864b12a.js",
+    "static/js/453.641090b5.chunk.js": "/Mike-Gumo/static/js/453.641090b5.chunk.js",
+    "index.html": "/Mike-Gumo/index.html",
+    "main.27ad39f0.css.map": "/Mike-Gumo/static/css/main.27ad39f0.css.map",
+    "main.8864b12a.js.map": "/Mike-Gumo/static/js/main.8864b12a.js.map",
+    "453.641090b5.chunk.js.map": "/Mike-Gumo/static/js/453.641090b5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27ad39f0.css",
+    "static/js/main.8864b12a.js"
+  ]
+}
