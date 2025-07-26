@@ -9,31 +9,31 @@ const Header = ({ isDarkMode, setIsDarkMode }) => {
         <div>
           <a href="#home">
             <svg
-              className="h-8 w-24 sm:h-12 sm:w-36 hover:opacity-80 transition-opacity duration-300 logo-static"
-              viewBox="0 0 180 60"
+              className="h-12 w-36 sm:h-20 sm:w-60 hover:opacity-80 transition-opacity duration-300 logo-static"
+              viewBox="0 0 300 100"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               <text
                 x="0"
-                y="30"
+                y="50"
                 fontFamily="Montserrat, -apple-system, BlinkMacSystemFont, sans-serif"
-                fontSize="24"
+                fontSize="36"
                 fontWeight="800"
                 fill="#3b82f6"
-                className="dark:fill-blue-400"
+                className="dark:fill-blue-400 sm:font-size-[48px]"
                 letterSpacing="1.5"
               >
                 MAYO
               </text>
               <text
                 x="0"
-                y="50"
+                y="80"
                 fontFamily="Montserrat, -apple-system, BlinkMacSystemFont, sans-serif"
-                fontSize="12"
+                fontSize="18"
                 fontWeight="600"
                 fill="#f97316"
-                className="dark:fill-orange-400"
+                className="dark:fill-orange-400 sm:font-size-[24px]"
                 letterSpacing="3"
               >
                 GUMO '27
@@ -62,19 +62,19 @@ const Header = ({ isDarkMode, setIsDarkMode }) => {
           </a>
           <a
             href="#vision"
-            className="text-blue-500 dark:text-blue-400 font-sans font-semibold hover:text-orange-500 transition-colors duration-300"
+            className="text-blue-500 dark:text-blue-400 font-sans font-semibold transition-colors duration-300"
           >
             Vision
           </a>
           <a
             href="#donate"
-            className="text-blue-500 dark:text-blue-400 font-sans font-semibold hover:text-orange-500 transition-colors duration-300"
+            className="text-blue-500 dark:text-blue-400 font-sans font-semibold transition-colors duration-300"
           >
             Donate
           </a>
           <a
             href="#connect"
-            className="text-blue-500 dark:text-blue-400 font-sans font-semibold hover:text-orange-500 transition-colors duration-300"
+            className="text-blue-500 dark:text-blue-400 font-sans font-semibold transition-colors duration-300"
           >
             Connect
           </a>
